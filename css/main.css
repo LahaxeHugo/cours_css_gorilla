@@ -12,7 +12,18 @@ h2 {
 header {
   background-color: darkred;
   height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
 header > nav {
   margin: 20px;
 }
@@ -47,6 +58,9 @@ header > nav > ul > li > a:hover {
   margin: auto;
   width: 50%;
   transform: translateY(calc(50vh - 60px));
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 body > article {

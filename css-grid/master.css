@@ -102,6 +102,6 @@ h1:nth-child(2) {
 @media (min-width: 657px) {
   .header-wrapper {
     transform: rotate(-35deg);
+    transform-origin: 65% 65%;
   }
-
 }
